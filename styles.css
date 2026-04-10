@@ -812,7 +812,7 @@ img {
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices <> */
-@media (width >= 340px){
+@media (width <= 340px){
   .container{
     margin-inline: 1rem;
   }
