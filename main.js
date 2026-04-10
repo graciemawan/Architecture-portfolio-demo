@@ -55,23 +55,3 @@ bgHeader()
 
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
-    const header = document.getElementById('header')
-
-    this.scrollY >= 50 ? header.classList.add('bg-header')
-
-                       : header.classList.remove('bg-header')
-
-}
-    
-window.addEventListener('scroll', bgHeader) 
-bgHeader()
-/*=============== SWIPER SERVICES ===============*/ 
-
-
-/*=============== SHOW SCROLL UP ===============*/ 
-
-
-/*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
-
-
-/*=============== SCROLL REVEAL ANIMATION ===============*/
