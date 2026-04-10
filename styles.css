@@ -849,7 +849,7 @@ img {
 }
 
 /* For medium devices <> */
-@media (width >= 540px){
+@media screen and (max-width: 540px){
   .home__container,
   .about__container,
   .services__container,
@@ -864,7 +864,7 @@ img {
   }
 }
 
-@media (width >= 768px){
+@media screen and (max-width: 768px){
   .nav__menu{
     width: 50%;
   }
@@ -884,7 +884,7 @@ img {
 }
 
 /* For large devices <> */
-@media (width >= 1150px){
+@media screen and (max-width: 1150px){
   .container{
     margin-inline: auto;
   }
